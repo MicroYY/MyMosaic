@@ -1,6 +1,6 @@
 # MyMosaic
 
-This program is used to achieve this photo effect.
+This program is used to achieve this kind of photo effect.
 ![Image text](Example.jpg)
 
 # Dependencies
@@ -9,7 +9,7 @@ Boost
 
 # Parameters setting
 There are three command line parameters you need to specify.
-The first is the folder in where you put your image database.
+The first is the folder where you put your image database.
 The second is the target image.
 The third is the size of the image block.
 e.g.   

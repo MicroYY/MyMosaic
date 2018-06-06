@@ -73,7 +73,7 @@ namespace kdTree
 		void NNearestAroundTreeNode(int idx, int correltime, int nn, kdTreeResultVector& result);
 
 	private:
-		static const int bucketsize = 0;
+		static const int bucketsize = 1;
 
 
 		//ÒýÓÃ

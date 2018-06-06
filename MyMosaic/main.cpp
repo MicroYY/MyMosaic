@@ -67,7 +67,7 @@ int main(int argc, char** argv)
 			continue;
 
 		std::string img_path = input_path + "/" + data.cFileName;
-
+		//std::cout << data.cFileName << std::endl;
 		cv::Mat img = cv::imread(img_path);
 		cv::Size img_size(size, size);
 		cv::resize(img, img, img_size);
@@ -151,7 +151,7 @@ int main(int argc, char** argv)
 	}
 
 	cv::imshow("", result);
-	cv::imwrite("result.jpg", result);
+	cv::imwrite("result4.jpg", result);
 	std::cout << (double)(clock() - start) / CLOCKS_PER_SEC << "s" << std::endl;
 	cv::waitKey();
 
